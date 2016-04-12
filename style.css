@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #FDEAA8;
+}
+.menu {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 267px;
+    padding: 3px;
+    border-radius: 5px;
+    background:  #CC7722;
+    border: 2px solid #4C3327;
+
+
+}
+.tabs {
+    height: 28px;
+    line-height: 25px;
+    list-style: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.tabs li {
+    float: left;
+    display: inline;
+    margin: 0 5px 0 0;
+    padding: 0 13px 1px;
+    color: #777;
+    cursor: pointer;
+    background: #4C3327;
+    border: 1px solid #E4E4E4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #F9F9F9;
+    position: relative;
+}
+.tabs li:hover {
+    color: #F70;
+    padding: 0 13px;
+
+    border: 1px solid #FFCA95;
+}
+.tabs .active {
+    background: #FFFFDF;
+
+}
+
+.article {
+    display: none;
+    border: 1px solid #D4D4D4;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #fdfdfd;
+    padding: 0 12px;
+}
+.article.active {
+    display: block;
+}
+.holder{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 600px;
+    height: 115px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 15px;
+    border-radius: 5px;
+    background:  #CC7722;
+    border: 2px solid #4C3327;
+    padding: 5px;
+
+}
+
+.label{
+    width: 90px;
+    display: inline-block;
+}
+.box{
+    margin-bottom: 20px;
+}
+.input_field{
+    margin-right: 15px;
+}
+
+.tooltip{
+    width: 217px;
+    display: inline-block;
+    border: 1px solid rgba(253, 148, 42, 0.41);
+    padding: 2px 7px;
+    background: rgba(244, 173, 113, 0.65);
+    box-shadow: 0 0 10px 0 rgba(244, 173, 113, 0.56);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0;
+    text-align: center;
+    color: white;
+
+}
+.show {
+    opacity: 1;
+    transition: 2s;
+
+}
+.help {
+    margin-top: 10px;
+    margin-left: 380px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #CC7722;
+    color: #FFCA95;
+    outline: none;
+}
